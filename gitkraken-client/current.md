@@ -138,15 +138,6 @@ _“A release for the bold and curious.”_
 ***
 
 
-<a id="v9-3-0"></a>
-## Version 9.3.0
-
-<div class='embed-container embed-container--16-9'>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/UZmwAu-2UYw" frameborder="0" allowfullscreen></iframe>
-</div>
-
-_“Wait, Azure is a color?”_
-
 ### Thursday, April 6th, 2023
 
 ### New ✨
@@ -362,7 +353,11 @@ _“The only thing more constant than software bugs, is the need to fix them.”
   - Fixed submodule not initializing when discarding all changes with submodule changes. 
 - Fixed performance hit when undoing `Discard all changes` with LFS files.
 - Fixed lag when resizing the commit message. 
-
+- Fixed issue retaining selected Jira project or Trello board when changing `Workspaces`.
+- Fix duplicate repos in the Local Workspace repo list when the repo was deleted from the users machine.
+- Fix error ‘Checkout Failed: stdout maxbuffer length exceeded’ when checking out in some big LFS repos.
+- Improved the app’s handling of commits with an empty message.
+- Fixed a case where opening a file in an external editor would not complete the action. 
 
 ***
 <a id="v9-0-0"></a>
