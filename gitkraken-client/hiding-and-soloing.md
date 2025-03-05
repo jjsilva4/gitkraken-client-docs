@@ -11,29 +11,28 @@ The left panel allows you to modify the view of the graph for cleanliness and fo
 ***
 
 
-<img src="/wp-content/uploads//solo-hide.gif" class="img-bordered img-responsive center">
+Undo, undo, undo. You can undo many of your actions in GitKraken Desktop with the Undo icon.
 
-<div class="flex-wrap" style="align-items: flex-start">
-    <div class="flex-item">
-        <img src="/wp-content/uploads/gk-hide-icon-green.svg" class='img-responsive' style="width: 70px; height: 70px">
-    </div>
-    <div class="flex-item">
-        <h3>Hide</h3>
-        <p>Hides the selected branch from the graph.</p>
-        <p>To hide a branch, mouse over that branch, and you will see the eye <i class='fa fa-eye icon-green'></i> icon appear to the left of the branch name; click this to hide. Or perform this task by right-clicking the branch and selecting `Hide`.</p>
-        <p>Hidden branches will now have a gray eye <i class='fa fa-eye-slash'></i> icon. Clicking this will restore that repo to the graph.</p>
-    </div>
-</div>
+If you're a keyboard fan, you may also enjoy using the keyboard shortcut
+<kbd>&#8984;</kbd> + <kbd>z</kbd> for Mac or <kbd>Ctrl</kbd> + <kbd>Z</kbd> for not-Mac.
 
- <div class="flex-wrap" style="align-items: flex-start">
-    <div class="flex-item">
-        <img src="/wp-content/uploads/gk-solo-icon-orange.svg" class='img-responsive' style="width: 70px; height: 70px">
-    </div>
-    <div class="flex-item">
-        <h3>Solo</h3>
-        <p>Soloing a branch will hide all other branches which have not been soloed, showing <i>only</i> soloed branches.</p>
-        <p>To solo a branch, right-click the branch and select `Solo`. This initiates Solo Mode, with soloed branches highlighted in orange and with a solid orange <i class='fa fa-dot-circle-o icon-orange'></i> icon to the left of the branch name.</p>
-        <p>Solo/unsolo additional branches by clicking on the semi-opaque icon to the left of that branch's name.</p>
-        <p>Consider hiding/soloing entire remotes if you only need about two remotes, and then hiding everything else.</p>
-    </div>
-</div>
+<a id="reverting-commits"></a>
+
+### Reverting commits
+
+Select the files you wish to stage, and click on any files you wish to review in the diff. To stage all your files, use the keyboard shortcut <kbd>&#8984;</kbd><kbd>Shift</kbd><kbd>S</kbd> for Mac or <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>S</kbd> for Windows or Linux.
+
+If you wish to revert a commit (perhaps Undo is not available), the option is available when right-clicking on a commit node. This will create a new commit to reverse your previous changes.
+
+Undo, undo, undo. You can undo many of your actions in GitKraken Desktop with the Undo icon.
+
+If you're a keyboard fan, you may also enjoy using the keyboard shortcut
+<kbd>&#8984;</kbd> + <kbd>z</kbd> for Mac or <kbd>Ctrl</kbd> + <kbd>Z</kbd> for not-Mac.
+
+<a id="reverting-commits"></a>
+
+### Reverting commits
+
+Select the files you wish to stage, and click on any files you wish to review in the diff. To stage all your files, use the keyboard shortcut <kbd>&#8984;</kbd><kbd>Shift</kbd><kbd>S</kbd> for Mac or <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>S</kbd> for Windows or Linux.
+
+If you wish to revert a commit (perhaps Undo is not available), the option is available when right-clicking on a commit node. This will create a new commit to reverse your previous changes.
