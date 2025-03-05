@@ -28,15 +28,9 @@ The answers to your important **F**requently **A**sked **Q**uestions.
 ***
 
 ### Does GitKraken Desktop support TFS, Visual Studio Team Service or Azure DevOps?
-Yes, for Azure DevOps (previously VSTS), you can use our integration with [Azure DevOps](/integrations/azure-devops/)!
+By default, GitKraken Desktop connects to one integration at a time. However, a <a href='https://gitkraken.com/features'>paid GitKraken license</a> provides multiple profile support, allowing you to easily switch between profiles that each have their own associated integrations.
 
-For TFS instances you will need to clone your repo <kbd><strong>File > Clone Repo</strong></kbd> and then enter the HTTPS repository URL (which can be found at the top-right of your Code page).<br><br>
-If you're connecting to a remote TFS Git server from a Mac or Linux, you will need to enable _Basic Authentication_ in IIS for TFS.
-
-If authenticating to TFS via username and password is not working, try creating a Personal Access Token (PAT) to use in place of a password.
-
-For more information authenticating with repos, check out our [SSH and HTTPS](/integrations/authentication) page.
-
+If you have a GitKraken Pro, Teams, or Enterprise license, [set up profiles](/start-here/profiles) to configure a GitHub, GitLab, Bitbucket, or Azure DevOps account for each profile.
 ***
 
 ### What Linux distributions are supported by GitKraken Desktop?
@@ -173,15 +167,6 @@ You can also set your file encoding to `GUESS ENCODING` and GitKraken Desktop wi
 
 ### How to get SILLY (extended) logs
 
-To obtain extended SILLY (extended) logs:
+By default, GitKraken Desktop connects to one integration at a time. However, a <a href='https://gitkraken.com/features'>paid GitKraken license</a> provides multiple profile support, allowing you to easily switch between profiles that each have their own associated integrations.
 
-* Close GitKraken
-* (optional) Rename or move the \logs folder under ~\.gitkraken\logs. The data location for this folder on your OS can be found [here](/gitkraken-client/how-to-install/)
-* Start GitKraken from the CLI using the command `gitkraken -d SILLY`
-* Reproduce the issue or error
-* All logs will be under the \logs folder
-
-***
-
-<br>
-Can't find your question here? <a href='https://help.gitkraken.com/gitkraken-client/contact-support/'>Contact us</a> and ask away.
+If you have a GitKraken Pro, Teams, or Enterprise license, [set up profiles](/start-here/profiles) to configure a GitHub, GitLab, Bitbucket, or Azure DevOps account for each profile.
