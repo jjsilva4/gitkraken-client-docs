@@ -10,19 +10,28 @@ taxonomy:
 Sometimes you commit to one branch, when you meant to commit to another. Here's how to grab the changes you need.
 
 ***
-To cherry pick a commit, right click on a commit node and select the Cherrypick Commit option:
+Undo, undo, undo. You can undo many of your actions in GitKraken Desktop with the Undo icon.
 
-<img src='/wp-content/uploads/cherrypick.png' srcset='/wp-content/uploads/cherrypick@2x.png 2x' class='img-bordered img-responsive center'>
+If you're a keyboard fan, you may also enjoy using the keyboard shortcut
+<kbd>&#8984;</kbd> + <kbd>z</kbd> for Mac or <kbd>Ctrl</kbd> + <kbd>Z</kbd> for not-Mac.
 
-The cherry pick action is also available from _Local_ on the left panel.
+<a id="reverting-commits"></a>
 
-Here, cherry pick grabs the changes from the commit referenced by the HEAD of that branch, and places them onto the branch currently checked out.
+### Reverting commits
 
-<img src='/wp-content/uploads/cherrypick-left-panel.png' srcset='/wp-content/uploads/cherrypick-left-panel@2x.png 2x' class='img-bordered img-responsive center'>
+Select the files you wish to stage, and click on any files you wish to review in the diff. To stage all your files, use the keyboard shortcut <kbd>&#8984;</kbd><kbd>Shift</kbd><kbd>S</kbd> for Mac or <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>S</kbd> for Windows or Linux.
 
-***
-### Additional Learning Git Resources:
+If you wish to revert a commit (perhaps Undo is not available), the option is available when right-clicking on a commit node. This will create a new commit to reverse your previous changes.
 
-<p class="small">
-	<a href="https://gitkraken.com/learn/git/tutorials/cherry-pick" target="_blank">Cherry Pick Tutorial</a> | <a href="https://gitkraken.com/learn/git/cherry-pick" target="_blank">Learn Git: What is Cherry Pick?</a></a>
-</p>
+Undo, undo, undo. You can undo many of your actions in GitKraken Desktop with the Undo icon.
+
+If you're a keyboard fan, you may also enjoy using the keyboard shortcut
+<kbd>&#8984;</kbd> + <kbd>z</kbd> for Mac or <kbd>Ctrl</kbd> + <kbd>Z</kbd> for not-Mac.
+
+<a id="reverting-commits"></a>
+
+### Reverting commits
+
+Select the files you wish to stage, and click on any files you wish to review in the diff. To stage all your files, use the keyboard shortcut <kbd>&#8984;</kbd><kbd>Shift</kbd><kbd>S</kbd> for Mac or <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>S</kbd> for Windows or Linux.
+
+If you wish to revert a commit (perhaps Undo is not available), the option is available when right-clicking on a commit node. This will create a new commit to reverse your previous changes.
