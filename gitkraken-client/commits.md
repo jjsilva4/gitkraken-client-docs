@@ -19,13 +19,15 @@ Commit to save work with GitKraken Desktop when changing files.  Whether you com
 
 ## Making a commit
 
+Select the files you wish to stage, and click on any files you wish to review in the diff. To stage all your files, use the keyboard shortcut <kbd>&#8984;</kbd><kbd>Shift</kbd><kbd>S</kbd> for Mac or <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>S</kbd> for Windows or Linux.
+
 To make a commit in GitKraken Desktop, select your _Work in Progress_ and to view recent changes on the Commit Panel.
 
-<img src='/wp-content/uploads/WIP-stage.png' srcset='/wp-content/uploads/WIP-stage@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/bypass-git-hooks.png' class='img-responsive center img-bordered' />
+
 
 Select the files you wish to stage, and click on any files you wish to review in the diff. To stage all your files, use the keyboard shortcut <kbd>&#8984;</kbd><kbd>Shift</kbd><kbd>S</kbd> for Mac or <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>S</kbd> for Windows or Linux.
 
-When you’re ready, type your message and hit commit to commit your changes. You can also use this **Commit** keyboard shortcut <kbd>&#8984;</kbd> + <kbd>Enter</kbd> for Mac or <kbd>Ctrl</kbd> + <kbd>Enter</kbd> if you are on Linux or Windows.
 
 <a id="commit-and-push"></a>
 ### Commit and push
@@ -159,10 +161,8 @@ If you're a keyboard fan, you may also enjoy using the keyboard shortcut
 
 ### Reverting commits
 
-<div class='embed-container embed-container--16-9'>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/U_axv67W1Ik?ecver=1" frameborder="0" allowfullscreen></iframe>
-</div>
+Select the files you wish to stage, and click on any files you wish to review in the diff. To stage all your files, use the keyboard shortcut <kbd>&#8984;</kbd><kbd>Shift</kbd><kbd>S</kbd> for Mac or <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>S</kbd> for Windows or Linux.
 
 If you wish to revert a commit (perhaps Undo is not available), the option is available when right-clicking on a commit node. This will create a new commit to reverse your previous changes.
 
-<img src='/wp-content/uploads/revert-commit.png' srcset='/wp-content/uploads/revert-commit@2x.png 2x' class='img-bordered img-responsive center'>
+<a id="reverting-commits"></a>
